@@ -40,7 +40,7 @@ public class BaseClass {
 	}
 	@BeforeTest (groups = { "Smoke", "Sanity", "Regression" })
 	public void loadConfig() {
-		
+		// test
 		try {
 			prp = new Properties();
 			FileInputStream fi = new FileInputStream(System.getProperty("user.dir")+"\\configuration\\config.properties");
