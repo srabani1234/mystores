@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.mystore.testcases.accountCreationPageTest">
+        <methods>
+          <include name="endSetup"/>
+          <include name="setup"/>
+          <include name="verifyCreateAccountPageTitle"/>
+          <include name="createAnAccount"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.accountCreationPageTest -->
+      <class name="com.mystore.testcases.homePageTest">
+        <methods>
+          <include name="endSetup"/>
+          <include name="tearDown"/>
+          <include name="verifyOrderHistory"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="verifyWishList"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.homePageTest -->
+      <class name="com.mystore.testcases.indexPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="endSetup"/>
+          <include name="tearDown"/>
+          <include name="verifyLogo"/>
+          <include name="beforeSuite"/>
+          <include name="verifyTitle"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.indexPageTest -->
+      <class name="com.mystore.testcases.addToCartPageTest">
+        <methods>
+          <include name="endSetup"/>
+          <include name="setup"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="addProductToCart"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.addToCartPageTest -->
+      <class name="com.mystore.testcases.loginPageTest">
+        <methods>
+          <include name="endSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginTest"/>
+          <include name="beforeSuite"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.loginPageTest -->
+      <class name="com.mystore.testcases.orderPageTest">
+        <methods>
+          <include name="endSetup"/>
+          <include name="beforeSuite"/>
+          <include name="proceedToOrder"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.orderPageTest -->
+      <class name="com.mystore.testcases.searchResultPageTest">
+        <methods>
+          <include name="endSetup"/>
+          <include name="searchProduct"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.searchResultPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

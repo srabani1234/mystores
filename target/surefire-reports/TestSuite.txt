@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 7, Errors: 0, Skipped: 30, Time elapsed: 4.057 s <<< FAILURE! - in TestSuite
+com.mystore.testcases.accountCreationPageTest.setup  Time elapsed: 2.602 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+com.mystore.testcases.addToCartPageTest.setup  Time elapsed: 0.11 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+com.mystore.testcases.homePageTest.setup  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+com.mystore.testcases.indexPageTest.setup  Time elapsed: 0.008 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+com.mystore.testcases.loginPageTest.setup  Time elapsed: 0.274 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+com.mystore.testcases.orderPageTest.setup  Time elapsed: 0.064 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
+com.mystore.testcases.searchResultPageTest.setup  Time elapsed: 0.044 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserName' is required by BeforeMethod on method setup but has not been marked @Optional or defined
+
+
