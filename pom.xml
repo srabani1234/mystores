@@ -88,7 +88,6 @@
    <suiteXMLFile>${testNGFile}</suiteXMLFile>
  </suiteXMLFiles>
   
-   <testFailureIgnore>true</testFailureIgnore>
     </configuration>
     
     
