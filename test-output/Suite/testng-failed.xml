@@ -7,6 +7,16 @@
   <test thread-count="5" name="Test_all(failed)">
     <parameter name="browserName" value="Chrome"/>
     <classes>
+      <class name="com.mystore.testcases.homePageTest">
+        <methods>
+          <include name="endSetup"/>
+          <include name="tearDown"/>
+          <include name="verifyOrderHistory"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.homePageTest -->
       <class name="com.mystore.testcases.orderPageTest">
         <methods>
           <include name="endSetup"/>
