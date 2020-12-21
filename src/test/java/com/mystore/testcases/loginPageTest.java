@@ -34,7 +34,7 @@ public class loginPageTest extends BaseClass {
 		Log.info("user goin to click on sign in button");
 		LoginPage =IndexPage.clicSignInBtn();
 		Log.info("user enter username and password");
-		HomePage =LoginPage.login(prp.getProperty("username"), prp.getProperty("password"));
+		HomePage =LoginPage.login(prp.getProperty("username"), prp.getProperty("password"), HomePage);
 		Log.info("user retriver current url");
 		String currentURL = HomePage.getCurrentURL();
 		// String expectedURL = "http://automationpractice.com/index.php?controller=my-account";

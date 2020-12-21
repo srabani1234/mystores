@@ -5,8 +5,10 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -705,6 +707,8 @@ public class Action extends BaseClass  {
 	    }catch(Exception e) {
 	    }
 	}
+	
+	
 	public static void implicitWait(WebDriver driver, int timeOut) {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}

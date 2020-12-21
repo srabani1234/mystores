@@ -35,10 +35,11 @@ public class loginPage extends BaseClass{
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	public homePage login(String userName, String passWords) {
+	public homePage login(String userName, String passWords, homePage homePage) {
 		Action.type(emailAddress, userName);
 		Action.type(passWord,passWords );
 		Action.click(getDriver(), logInBtn);
+		homePage = new homePage();
 		return new homePage();
 		
 	}

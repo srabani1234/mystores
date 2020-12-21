@@ -30,7 +30,7 @@ public class homePageTest extends BaseClass {
 	public void verifyWishList() {
 		IndexPage = new indexPage();
 		LoginPage= IndexPage.clicSignInBtn();
-		HomePage =LoginPage.login(prp.getProperty("username"), prp.getProperty("password"));
+		HomePage =LoginPage.login(prp.getProperty("username"), prp.getProperty("password"),HomePage);
 		boolean verifyPresentOfWishList = HomePage.validateMyWishList();
 		Assert.assertTrue(verifyPresentOfWishList);
 	}
@@ -38,7 +38,7 @@ public class homePageTest extends BaseClass {
 	public void verifyOrderHistory() {
 		IndexPage = new indexPage();
 		LoginPage= IndexPage.clicSignInBtn();
-		HomePage =LoginPage.login(prp.getProperty("username"), prp.getProperty("password"));
+		HomePage =LoginPage.login(prp.getProperty("username"), prp.getProperty("password"), HomePage);
 		boolean orderHistory= HomePage.validateOrderHistory();
 		Assert.assertTrue(orderHistory);
 	}
